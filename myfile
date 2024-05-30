@@ -6,39 +6,14 @@ Certainly! The `pom.xml` file is an essential part of Maven projects. It contain
     <project xmlns="http://maven.apache.org/POM/4.0.0"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-        <modelVersion>4.0.0</modelVersion>
-        <groupId>com.javatpoint.application1</groupId>
-        <artifactId>my-app</artifactId>
+        
+     
         <version>1</version>
-    </project>
-    ```
-    In this example:
-    - `groupId`: Identifies the project group.
-    - `artifactId`: Specifies the project's artifact (e.g., JAR, WAR).
-    - `version`: Indicates the version of the artifact.
+    
 
-2. **Extended `pom.xml` Example**:
-    ```xml
-    <project xmlns="http://maven.apache.org/POM/4.0.0"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-        <modelVersion>4.0.0</modelVersion>
-        <groupId>com.javatpoint.application1</groupId>
-        <artifactId>my-application1</artifactId>
-        <version>1.0</version>
-        <packaging>jar</packaging>
-        <name>Maven Quick Start Archetype</name>
-        <url>http://maven.apache.org</url>
-        <dependencies>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.8.2</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </project>
-    ```
+2. **Extended `pom.xml` Example*
+            rl>
+        <d
     In this extended example:
     - `packaging`: Defines the packaging type (e.g., JAR, WAR).
     - `name`: Specifies the project name.
@@ -54,8 +29,6 @@ References:
 4. [Spring Boot Java framework: Maven pom.xml cheat sheet](https://medium.com/@databackendtech/spring-boot-java-framework-cheat-sheet-of-maven-pom-xml-cb8ef2f0700d)
 5. [Maven - POM (Project Object Model) pom.xml - HowToDoInJava](https://howtodoinjava.com/maven/maven-pom-files/) ¹²³⁴⁵
 
-Source: Conversation with Copilot, 24/5/2024
-(1) Maven pom.xml - javatpoint. https://www.javatpoint.com/maven-pom-xml.
 (2) sample-code-java/pom.xml at master - GitHub. https://github.com/AuthorizeNet/sample-code-java/blob/master/pom.xml.
 (3) Maven POM template - an example - Tutorial Works. https://www.tutorialworks.com/maven-pom-template/.
 (4) Spring Boot Java framework: cheat sheet of maven pom.xml. https://medium.com/@databackendtech/spring-boot-java-framework-cheat-sheet-of-maven-pom-xml-cb8ef2f0700d.
